@@ -100,6 +100,15 @@ img {
     width: 100%;
     height: auto;
 }
+
+#news-teisano-title-too-long-override {
+    font-size: 50px;
+}
+
+.button-greyed-out {
+    border: 1px solid grey;
+}
+
 .break-between-news-articles {
     height: 100px;
 }

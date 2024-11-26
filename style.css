@@ -27,7 +27,7 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0% 10%;
+    margin: 0 10%;
 }
 
 .logo {

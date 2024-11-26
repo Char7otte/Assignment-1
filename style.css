@@ -27,12 +27,17 @@ body {
     font-size: 30px;
 }
 
-/* .hero {
-    width: 100%;
-    height: auto;
-} */
-
 .hero-image {
     width: 100%;
     height: auto;
+}
+
+.hero-buttons {
+    color: #170202;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
 }

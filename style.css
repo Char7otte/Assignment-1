@@ -7,7 +7,6 @@
 body {
     background-color: #170202;
     color: white;
-    margin: 0% 10%;
 }
 
 .navigation {
@@ -18,21 +17,51 @@ body {
 }
 
 .logo {
-    width: 100px;
+    width: 150px;
 }
 
 .navigation p {
     display: inline;
-    margin: 0 30px;
+    margin: 0 20px;
     font-size: 30px;
 }
 
-/* .hero {
-    width: 100%;
-    height: auto;
-} */
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero-title {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 400px;
+    margin: 0;
+    letter-spacing: 20px;
+}
 
 .hero-image {
     width: 100%;
     height: auto;
+    opacity: 50%;
+}
+
+.hero-buttons {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    margin: 20px;
+    width: 250px;
+    background-color: transparent;
+    font-size: 50px;
+    border: 4px solid white;
+    color: white;
+    font-family: inherit;
 }

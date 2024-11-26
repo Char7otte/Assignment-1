@@ -108,11 +108,18 @@ h1 {
 }
 
 .news-article-content {
+    margin: 0 20%;
+}
+
+.news-article-description {
+    margin: 0 20%;
 }
 
 .news-article-tags button {
     border: 1px solid white;
     font-size: 20px;
+}
+
 img {
     width: 100%;
     height: auto;

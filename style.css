@@ -9,6 +9,13 @@ body {
     color: white;
 }
 
+.divider {
+    margin: 10px auto;
+    width: 90%;
+    height: 3px;
+    background-color: white;
+}
+
 .navigation {
     display: flex;
     justify-content: space-between;

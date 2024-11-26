@@ -100,4 +100,6 @@ img {
     width: 100%;
     height: auto;
 }
+.break-between-news-articles {
+    height: 100px;
 }

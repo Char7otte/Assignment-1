@@ -204,3 +204,7 @@ footer a {
     color: white;
     text-decoration: none;
 }
+
+.spacer {
+    margin: 100px 0;
+}

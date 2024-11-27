@@ -126,6 +126,10 @@ h1 {
     margin-left: 1%;
 }
 
+.button-greyed-out {
+    color: grey;
+}
+
 .news-article button {
     border: 1.5px solid white;
     font-size: 30px;
@@ -137,11 +141,6 @@ img {
 }
 #news-teisano-title-too-long-override {
     font-size: 50px;
-}
-
-.button-greyed-out {
-    border: 1px solid grey;
-    color: grey;
 }
 
 .break-between-news-articles {

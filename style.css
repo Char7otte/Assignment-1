@@ -9,6 +9,11 @@ body {
     color: white;
 }
 
+.hero button {
+    width: 500px;
+    height: 150px;
+}
+
 button {
     border: 1px solid white;
     background-color: transparent;

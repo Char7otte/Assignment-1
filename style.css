@@ -55,7 +55,7 @@ h1 {
     margin: 0 10%;
 }
 
-.navigation a {
+a {
     color: white;
     text-decoration: none;
 }
@@ -216,4 +216,13 @@ footer {
 
 footer a {
     color: white;
+    text-decoration: underline;
+}
+
+footer div {
+    margin: 5% 10% 10px 10%;
+}
+
+footer button {
+    border-width: 1px;
 }

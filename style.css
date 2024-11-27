@@ -168,6 +168,10 @@ img {
     margin-right: 0;
 }
 
+.merch-items h2 {
+    margin-right: 15%;
+}
+
 .merch-items img {
     width: 500px;
     height: 500px;

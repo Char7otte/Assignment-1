@@ -125,7 +125,6 @@ img {
     width: 100%;
     height: auto;
 }
-
 #news-teisano-title-too-long-override {
     font-size: 50px;
 }
@@ -143,4 +142,35 @@ img {
     display: flex;
     justify-content: flex-end;
     margin-right: 20%;
+}
+
+.merch-items {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10%;
+}
+
+.merch-items img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.merch-items h2 {
+    text-align: center;
+}
+
+.merch-item-description p, .merch-item-description a {
+    width: 500px;
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.merch-item-description a:link {
+    color: yellow;
+}
+
+.merch-item-description a:visited {
+    color: orange;
 }

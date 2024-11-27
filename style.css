@@ -135,3 +135,9 @@ img {
 .break-between-news-articles {
     height: 100px;
 }
+
+.column-right .news-article-tags {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20%;
+}

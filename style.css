@@ -105,15 +105,17 @@ h1 {
 }
 
 .column-left, .column-right {
-    width: 50%;
+    width: 49%;
 }
 
 .column-left {
     margin-left: 10%;
-}
+    margin-right: 1%;
+} 
 
 .column-right {
     margin-right: 10%;
+    margin-left: 1%;
 }
 
 .news-article button {

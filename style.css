@@ -141,13 +141,17 @@ img {
 .column-right .news-article-tags {
     display: flex;
     justify-content: flex-end;
-    margin-right: 20%;
+    margin-right: 0;
 }
 
 .merch-items {
     display: flex;
     justify-content: space-between;
     margin: 0 10%;
+}
+
+.merch-items .column-right {
+    margin-right: 0;
 }
 
 .merch-items img {

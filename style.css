@@ -129,6 +129,7 @@ img {
 
 .button-greyed-out {
     border: 1px solid grey;
+    color: grey;
 }
 
 .break-between-news-articles {

@@ -9,11 +9,25 @@ body {
     color: white;
 }
 
+button {
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-family: inherit;
+}
+
+.divider {
+    margin: 10px auto;
+    width: 90%;
+    height: 3px;
+    background-color: white;
+}
+
 .navigation {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0% 10%;
+    margin: 0 10%;
 }
 
 .logo {
@@ -42,8 +56,6 @@ body {
 }
 
 .hero-image {
-    width: 100%;
-    height: auto;
     opacity: 50%;
 }
 
@@ -56,12 +68,80 @@ body {
     gap: 20px;
 }
 
-button {
+.hero-buttons button {
     margin: 20px;
     width: 250px;
-    background-color: transparent;
     font-size: 50px;
     border: 4px solid white;
-    color: white;
-    font-family: inherit;
+}
+
+.section-title {
+    text-align: center;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+.news-article {
+    background-color: #230202;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 700px;
+}
+
+.news-article h1 {
+    margin-bottom: 0px;
+}
+
+.news-article h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.news-article p {
+    margin-top: 0px;
+    color: 
+}
+
+.column-left, .column-right {
+    width: 50%;
+}
+
+.column-left {
+    margin-left: 10%;
+}
+
+.column-right {
+    margin-right: 10%;
+}
+
+.news-article button {
+    border: 1px solid white;
+    font-size: 30px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+#news-teisano-title-too-long-override {
+    font-size: 50px;
+}
+
+.button-greyed-out {
+    border: 1px solid grey;
+    color: grey;
+}
+
+.break-between-news-articles {
+    height: 100px;
+}
+
+.column-right .news-article-tags {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20%;
 }

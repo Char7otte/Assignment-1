@@ -91,26 +91,18 @@ h1 {
     height: 700px;
 }
 
-.column-left {
+}
+
+.column-left, .column-right {
     width: 50%;
-    padding: 20px;
-    display: flex;
-    align-items: left;
+}
+
+.column-left {
+    margin-left: 10%;
 }
 
 .column-right {
-    width: 50%;
-    padding: 20px;
-    display: flex;
-    align-items: right;
-}
-
-.news-article-content {
-    margin: 0 20%;
-}
-
-.news-article-description {
-    margin: 0 20%;
+    margin-right: 10%;
 }
 
 .news-article button {

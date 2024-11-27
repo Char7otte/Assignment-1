@@ -108,6 +108,10 @@ h1 {
     margin-top: 0px;
 }
 
+.news-article-description button {
+    margin-right: 20px;
+}
+
 .column-left, .column-right {
     width: 49%;
 }

@@ -91,6 +91,18 @@ h1 {
     height: 700px;
 }
 
+.news-article h1 {
+    margin-bottom: 0px;
+}
+
+.news-article h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.news-article p {
+    margin-top: 0px;
+    color: 
 }
 
 .column-left, .column-right {

@@ -9,15 +9,14 @@ body {
     color: white;
 }
 
-.hero button {
-    width: 500px;
-    height: 150px;
-}
-
 button {
     background-color: transparent;
     color: white;
     font-family: inherit;
+}
+
+h1 {
+    font-size: 100px;
 }
 
 .divider {
@@ -27,11 +26,20 @@ button {
     background-color: white;
 }
 
+.spacer {
+    margin: 100px 0;
+}
+
 .navigation {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 10%;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
 }
 
 .logo {
@@ -46,7 +54,6 @@ button {
 
 .hero {
     position: relative;
-    text-align: center;
 }
 
 .hero-title {
@@ -75,16 +82,9 @@ button {
 .hero-buttons button {
     margin: 20px;
     width: 250px;
+    height: 150px;
     font-size: 50px;
     border: 4px solid white;
-}
-
-.section-title {
-    text-align: center;
-}
-
-h1 {
-    font-size: 100px;
 }
 
 .news-article {
@@ -170,10 +170,6 @@ img {
     object-fit: cover;
 }
 
-.merch-items h2 {
-    text-align: center;
-}
-
 .merch-item-description p, .merch-item-description a {
     width: 500px;
     font-size: 30px;
@@ -198,13 +194,4 @@ footer {
 
 footer a {
     color: white;
-}
-
-.navigation a {
-    color: white;
-    text-decoration: none;
-}
-
-.spacer {
-    margin: 100px 0;
 }

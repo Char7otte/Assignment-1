@@ -187,3 +187,12 @@ footer {
     justify-content: space-between;
     align-items: center;
 }
+
+footer a {
+    color: white;
+}
+
+.navigation-links a {
+    color: white;
+    text-decoration: none;
+}

@@ -13,6 +13,19 @@ button {
     background-color: transparent;
     color: white;
     font-family: inherit;
+    border-style: solid;
+}
+
+.white-border {
+    border-color: white;
+}
+
+.grey-border {
+    border-color: grey;
+}
+
+.grey-text {
+    color: grey;
 }
 
 h1 {
@@ -88,7 +101,7 @@ h1 {
     width: 250px;
     height: 150px;
     font-size: 50px;
-    border: 4px solid white;
+    border-width: 4px;
 }
 
 .news-article {
@@ -136,7 +149,7 @@ h1 {
 }
 
 .news-article button {
-    border: 1.5px solid white;
+    border-width: 1.5px;
     font-size: 30px;
 }
 

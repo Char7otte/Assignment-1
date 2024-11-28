@@ -7,89 +7,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="images/logo.png">
+    <link rel="icon" type="image/x-icon" href="images/mili-logo.png">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 </head>
 <body class="italiana-regular">
-    <section class="navigation">
-        <img src="images/logo.png" alt="Mili logo" class="logo">
-        <div class="navigation-links">
-            <p>
-                <a href="index.html" target="_blank">Home</a>
-            </p>
-            <p>
-                <a href="discography.html" target="_blank">Discography</a>
-            </p>
-            <p>
-                <a href="merch.html" target="_blank">Merchandise</a>
-            </p>
-            <p>
-                <a href="tours.html" target="_blank">Tours</a>
-            </p>
-            <p>
-                <a href="about.html" target="_blank">About</a>
-            </p>
-            <p>
-                <a href="contact.html" target="_blank">Contact us</a>
-            </p>
-        </div>
-    </section>
-    <section>
-        <h1>Contact Mili Page</h1>
-    </section>
+    <div id="navigation-bar-placeholder"></div>
+    <script>
+        $(function(){
+          $("#navigation-bar-placeholder").load("html-templates/navigation-bar.html");
+        });
+    </script>
 </body>
-<footer>
-    <div>
-        <h2>Subscribe to our newsletter</h2>
-        <form>
-            <input type="email" placeholder="Email address">
-            <button>Subscribe</button>
-        </form>
-    </div>
-    <div>
-        <h2>Find us at</h2>
-        <ul>
-            <li>
-                <a href="https://x.com/projectmili?lang=en" target="_blank">Twitter</a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/projectmili/" target="_blank">Instagram</a>
-            </li>
-            <li>
-                <a href="https://www.facebook.com/ProjectMili" target="_blank">Facebook</a>
-            </li>
-            <li>
-                <a href="https://www.youtube.com/@ProjectMili" target="_blank">Youtube</a>
-            </li>
-            <li>
-                <a href="https://open.spotify.com/artist/0K05TDnN7xPwIHDOwD2YYs" target="_blank">Spotify</a>
-            </li>
-            <li>
-                <a href="https://music.apple.com/ae/artist/mili/906934266" target="_blank">Apple Music</a>
-            </li>
-        </ul>
-    </div>
-    <div>
-        <h2>Navigation</h2>
-        <ul>
-            <li>
-                <a href="index.html" target="_blank">Home</a>
-            </li>
-            <li>
-                <a href="discography.html" target="_blank">Discography</a>
-            </li>
-            <li>
-                <a href="merch.html" target="_blank">Merchandise</a>
-            </li>
-            <li>
-                <a href="tours.html" target="_blank">Tours</a>
-            </li>
-            <li>
-                <a href="about.html" target="_blank">About</a>
-            </li>
-            <li>
-                <a href="contact.html" target="_blank">Contact us</a>
-            </li>
-        </ul>
-    </div>
-</footer>
+<div id="footer-placeholder"></div>
+<script>
+    $(function(){
+      $("#footer-placeholder").load("html-templates/footer.html");
+    });
+</script>
 </html>

@@ -192,3 +192,7 @@ footer a {
 ul {
     list-style-type: none;
 }
+
+.h2-title {
+    font-size: 50px;
+}

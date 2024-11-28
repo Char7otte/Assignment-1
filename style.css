@@ -196,3 +196,13 @@ ul {
 .h2-title {
     font-size: 50px;
 }
+
+.member-card {
+    display: flex; 
+    align-items: baseline; 
+    gap: 20px;
+}
+
+.member-card h3, .member-card p {
+    margin: 0;
+}

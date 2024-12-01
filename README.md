@@ -1,4 +1,4 @@
-<h1>Website about the music group <a href="https://www.youtube.com/@ProjectMili" target="_blank">'Mili'.</a>.</h1>
+<h1>Website about the music group <a href="https://www.youtube.com/@ProjectMili" target="_blank">'Mili'</a>.</h1>
 <p>The website should be a listener's one-stop shop for any news regarding Mili. It will inform them of any news like song releases and upcoming tours, as well as link them to purchasing officially liscensed merchandise.<br>
 It should also act as a repository of all of Mili's previous work so as to attract more work.</p>
 
@@ -9,3 +9,7 @@ It should also act as a repository of all of Mili's previous work so as to attra
     <li>Discography page grouped by year. Each song entry should contain an image of the song cover, its name, release date, and any other information like if was a collaboration with a video game or if it's part of an album.</li>
     <li>Tours page should contain 2 sections, 'Current and Upcoming tours', and 'Previous Tours'. Each entry should note where it took place.</li>
 </ul>
+
+<h2>References</h2>
+Information about the music group and images have been taken from <a href="https://projectmili.com/" target="_blank">https://projectmili.com/</a>. 
+Songs have been imbedded from their <a href="https://www.youtube.com/user/ProjectMili" target="_blank">youtube</a> & <a href="https://open.spotify.com/user/projectmili" target="_blank">spotify.</a>

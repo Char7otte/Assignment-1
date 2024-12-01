@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>Project Mili Contact</title>
     <meta charset="utf-8">
@@ -19,7 +19,7 @@
         });
     </script>
     <section class="edge-margin">
-        <h2 class="no-bottom-margin">Please reach out to us for bookings, collaborations, and other business enquiries at: </h1>
+        <h2 class="no-bottom-margin">Please reach out to us for bookings, collaborations, and other business enquiries at: </h2>
         <h2><a href="mailto:contact@projectmili.com" style="text-decoration: underline; color: yellow;">contact@projectmili.com</a></h2>
         <form>
             <label for="name">Name:</label><br>
@@ -33,11 +33,11 @@
             <button type="submit">Submit</button>
         </form>
     </section>
+    <div id="footer-placeholder"></div>
+    <script>
+        $(function(){
+          $("#footer-placeholder").load("html-templates/footer.html");
+        });
+    </script>
 </body>
-<div id="footer-placeholder"></div>
-<script>
-    $(function(){
-      $("#footer-placeholder").load("html-templates/footer.html");
-    });
-</script>
 </html>

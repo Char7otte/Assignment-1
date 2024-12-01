@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>Project Mili</title>
     <meta charset="utf-8">
@@ -20,11 +20,11 @@
     </script>
     <section>
         <div class="overlay-container">
-            <img src="images/home-page/hero-background-image.jpg" id="hero-section-image">
+            <img src="images/home-page/hero-background-image.jpg" alt="Mili Banner" id="hero-section-image">
             <div class="centered">
                 <h1 style="font-size: 400px; letter-spacing: 20px;" class="center-text">Mili</h1>
                 <div id="hero-section-buttons" class="bottom-centered">
-                    <a href="https://www.youtube.com/@ProjectMili" target="_blank" class=>
+                    <a href="https://www.youtube.com/@ProjectMili" target="_blank">
                         <button class="white-border">Youtube</button>
                     </a>
                     <a href="https://open.spotify.com/artist/0K05TDnN7xPwIHDOwD2YYs" target="_blank">
@@ -111,11 +111,11 @@
             </div>
         </div>
     </section>
+    <div id="footer-placeholder"></div>
+    <script>
+        $(function(){
+        $("#footer-placeholder").load("html-templates/footer.html");
+        });
+    </script>
 </body>
-<div id="footer-placeholder"></div>
-<script>
-    $(function(){
-      $("#footer-placeholder").load("html-templates/footer.html");
-    });
-</script>
 </html>

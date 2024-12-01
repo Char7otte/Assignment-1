@@ -9,7 +9,3 @@ It should also act as a repository of all of Mili's previous work so as to attra
     <li>Discography page grouped by year. Each song entry should contain an image of the song cover, its name, release date, and any other information like if was a collaboration with a video game or if it's part of an album.</li>
     <li>Tours page should contain 2 sections, 'Current and Upcoming tours', and 'Previous Tours'. Each entry should note where it took place.</li>
 </ul>
-
-<h2>Design</h2>
-<p>Mili's work is quite classical, so a gothic font should be used.</p>
-<p>Buttons/containers should have hard corners to match.</p>

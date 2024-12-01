@@ -206,3 +206,16 @@ ul {
 .member-card h3, .member-card p {
     margin: 0;
 }
+
+.merch-buy-button {
+    font-size: 30px;
+    padding: 0px 30px;
+}
+
+.card-flexbox {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
